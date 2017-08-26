@@ -83,6 +83,6 @@ text函数用来在指定位置添加文本标识
 import matplotlib.pyplot as plt
 import matplotlib.image as mpimg
 import numpy as np
-img = mpimg.imread('.\\emico.png')
+img = mpimg.imread('.\\test.png')
 plt.imshow(img)
 plt.show()
