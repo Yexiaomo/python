@@ -1,10 +1,16 @@
 ## 目录
-[ndarray数组的操作](https://github.com/Yexiaomo/python/tree/master/python-data_analysis)
-[ndarray数组的运算](https://github.com/Yexiaomo/python/tree/master/python-data_analysis)
-[numpy中的数据读取](https://github.com/Yexiaomo/python/tree/master/python-data_analysis)
-[numpy的随机数函数子库](https://github.com/Yexiaomo/python/tree/master/python-data_analysis)
-[numpy的统计函数](https://github.com/Yexiaomo/python/tree/master/python-data_analysis)
-[numpy的梯度函数](https://github.com/Yexiaomo/python/tree/master/python-data_analysis)
+[ndarray数组的操作](https://github.com/Yexiaomo/python/tree/master/python-data_analysis/numpy.md#L123)
+
+[ndarray数组的运算](https://github.com/Yexiaomo/python/tree/master/python-data_analysis/numpy.md#L123)
+
+[numpy中的数据读取](https://github.com/Yexiaomo/python/tree/master/python-data_analysis/numpy.md#L123)
+
+[numpy的随机数函数子库](https://github.com/Yexiaomo/python/tree/master/python-data_analysis/numpy.md#L123)
+
+[numpy的统计函数](https://github.com/Yexiaomo/python/tree/master/python-data_analysis/numpy.md#L123)
+
+[numpy的梯度函数](https://github.com/Yexiaomo/python/tree/master/python-data_analysis/numpy.md#L123)
+
 ## ndarray数组的操作
 ### ndarray的元素类型
 |数据类型|说明|
