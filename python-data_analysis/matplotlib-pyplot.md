@@ -1,4 +1,5 @@
 ## matplotlib.pyplot库
+
 ### plot()函数
 >plt.plot(x, y, format_string, **kwargs)
 - x : x轴数据,列表或数组,可选
@@ -10,7 +11,6 @@
 #### plot()函数中的format_string参数
 
 控制曲线的格式字符串,可选由颜色字符,风格字符和标记字符组成
-
 
 |颜色字符|说明|颜色字符|说明|
 |-|-|-|-|
@@ -48,7 +48,6 @@
 - ...
 
 ### pyplot的文本显示函数
-
 |函数|说明|
 |-|-|
 |plt.xlabel()|对X轴增加文本标签|
@@ -56,10 +55,10 @@
 |plt.title()|对图形整体增加文本标签|
 |plt.text()|在任意位置增加文本|
 |plt.annotate()|在图形中增加带箭头的注解|
-## pyplot的基础图标函数
+
+### pyplot的基础图标函数
 |函数|说明|
 |-|-|
-
 |plt.plot(x, y, format_string, **kwargs)|绘制一个坐标图|
 |plt.boxplot(data, notch, position)|绘制一个箱形图|
 |plt.bar(left, height, width, bottom)|绘制一个条形图|
