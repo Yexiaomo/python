@@ -81,6 +81,7 @@
 |np.abs(x)|np.fabs(x)|计算数组各元素的绝对值|
 |np.sqrt(x)|计算数组各元素的平方根|
 |np.square(x)|计算数组各元素的平方|
+|np.power(x, n)|计算数组各元素的n次方|
 |np.log(x)|np.log10(x)|np.log2(x)|计算数组各元素的自然对数,10底对数和2底对数|
 |np.ceil(x)|np.floor(x)|计算数组各元素的ceiling值或floor值|
 |np.rint(x)|计算数组各元素的四舍五入值|
