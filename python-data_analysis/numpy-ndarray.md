@@ -23,7 +23,7 @@
 |属性|说明|
 |-|-|
 |.ndim|秩,即轴的数量或维度的数量|
-|.shape|ndarray对象的尺度,对于矩阵,n行m列|
+|.shape|查看ndarray对象的形状.对于矩阵,n行m列|
 |.size|ndarray对象的个数,相当于.shape中n*m的值|
 |.dtype|ndarray对象的元素类型|
 |.itemsize|ndarray对象中每个元素的大小,以字节为单位|
@@ -45,10 +45,10 @@
 ### ndarray数组的维度变换
 |方法|说明|
 |-|-|
-|.reshape(shape)|不改变数组元素,返回一个shape形状的数组,原数组不变|
-|.resize(shape)|与 .reshape()功能一致,但修改原数组|
+|.reshape(shape)|不改变数组元素,返回一个shape形状的数组,`原数组不变`|
+|.resize(shape)|与 .reshape()功能一致,`但修改原数组`|
 |.swapaxes(ax1, ax2)|将数组n个维度中两个维度进行调换|
-|.flatten()|将数组进行降维,返回折叠后的一维数组,原数组不变|
+|.flatten() | .ravel() |(两个函数有区别)将数组进行降维,返回折叠后的一维数组,原数组不变.|
 
 ### ndarray数组的类型变换
     new_a = a.astype(new_type)
@@ -89,6 +89,7 @@
 |np.cos(x) np.cosh(x) np.sin(x) np.sinh(x) np.tan(x) np.tanh()|计算数组各元素的普通型和双曲型三角形函数|
 |np.exp(x)|计算数组各元素的指数值|
 |np.sign(x)|计算数组各元素的符号值, 1(+), 0 , -1(-)|
+
 ### numpy中的二元函数
 |函数|说明|
 |-|-|
@@ -97,6 +98,8 @@
 |np.mod(x,y)|元素级的模运算|
 |np.copysign(x,y)|将数组y中各元素的符号赋值给数组x对应元素|
 |> < >= <= == !=| 算术比较,产生布尔型数组|
+|np.vstack((a,b))|垂直拼合数组(可以想象成b放在a下面),|
+|np.hstack((a,b))|水平拼合数组(可以想象成b放在a右边)|
 
 ## numpy中的数据读取
 ### 一维或二维的数据存取
