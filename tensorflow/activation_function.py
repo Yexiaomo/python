@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import tensorflow as tf
 
 # 创建输入数据
-x = np.linspace(-7, 7, 180) #(-7,7)之间等间隔180个点
+x = np.linspace(-7, 7, 180) # (-7,7)之间等间隔180个点
 
 # 激活函数原始实现
 def sigmoid(inputs):

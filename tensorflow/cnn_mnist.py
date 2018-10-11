@@ -89,14 +89,14 @@ accuracy = tf.metrics.accuracy(
                 predictions = tf.argmax(logits, axis=1)
                 )[1]
 
-#创建会话
+# 创建会话
 sess = tf.Session()
 #初始化变量: 全局和局部
 init = tf.group(tf.global_variables_initializer(), tf.local_variables_initializer())
 sess.run(init)
 
-#训练神经网络
-for i in range(100):
+# 训练神经网络
+for i in range(20000):
     batch = mnist.train.next_batch(50)
     train_loss, train_op_ = sess.run([loss, train_op], {input_x:batch[0], output_y: batch[1]})
     if i%100 == 0:
@@ -105,7 +105,7 @@ for i in range(100):
 
 test_output = sess.run(logits, {input_x: test_x[:20]})
 inference_y = np.argmax(test_output, 1)
-print(inference_y, 'Inference numbers')
-print(np.argmax(test_y[:20], 1), "Real numbers")
+print(inference_y, 'Inference numbers') # 测试数据
+print(np.argmax(test_y[:20], 1), "Real numbers") # 真实数据
 
 sess.close()
